@@ -11,7 +11,11 @@ function setup() {
 }
 
 function draw() {
+  
   background(255);
+  let a = createA('https://kelenina.github.io/FinalChallange/', '🍀', '_blank');
+  a.position(200, 200);
+  
   
   
   if( health != 0) {
