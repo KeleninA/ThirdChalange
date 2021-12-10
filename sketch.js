@@ -13,8 +13,13 @@ function setup() {
 function draw() {
   
   background(255);
+  
   let a = createA('https://kelenina.github.io/FinalChallange/', '🍀', '_blank');
-  a.position(200, 200);
+  a.position(200, 400);
+  a.hide();
+  if(health == 0) {
+    a.show();
+  }
   
   
   
